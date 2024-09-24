@@ -1,6 +1,6 @@
 # StarCitizen_MFP
 ESP32-S3 Based USB game control input for PC 
-
+![SC-MFP](https://github.com/user-attachments/assets/b7faf35a-3641-45a8-a6c2-a7d133f3d6d0)
 Designed and developed for use with an ESP32-S3 dvelopment board connected to Windows via USB. Windows will see ESP32 as a Game Controller.
 Digital GPIO pins are connected to ground through momentary push buttons providing button press signals to windows.
 
