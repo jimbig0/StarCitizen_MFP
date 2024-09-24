@@ -17,4 +17,10 @@ https://amzn.eu/d/8QCAbFV
 Guarded Toggle Switch with Mounting Panel 
 https://amzn.eu/d/iHlKJJv
 
-Software deveoped using 
+Software deveoped from https://github.com/schnoog/Joystick_ESP32S2
+example files.
+
+Additional software used in windows to allow for more than two game control devices to work with Star Citizen.
+HIDHide - https://github.com/nefarius/HidHide
+VJoy - https://sourceforge.net/projects/vjoystick/
+Joystick Gremlin - https://whitemagic.github.io/JoystickGremlin/
