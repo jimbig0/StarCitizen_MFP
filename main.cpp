@@ -13,8 +13,24 @@
 #include <Arduino.h>
 #include <Joystick_ESP32S2.h>
 
-Joystick_ Joystick;
-
+Joystick_ Joystick(
+// Disable unused axis. No analogue inputs are utilised in the MFP
+JOYSTICK_DEFAULT_REPORT_ID,
+JOYSTICK_TYPE_JOYSTICK,
+16, // Number of Buttons
+0, // Number of Hat Switches
+false, // X Axis
+false, // Y Axis
+false, // Z Axis
+false, // Rx Axis
+false, // Ry Axis
+false, // Rz Axis
+false, // Rudder
+false, // Throttle
+false, // Accelerator
+false, // Brake
+false // Steering
+);
 void setup() {
   // Initialize Button Pins
   pinMode(4, INPUT_PULLUP);
@@ -32,11 +48,10 @@ void setup() {
   pinMode(16, INPUT_PULLUP);
   pinMode(17, INPUT_PULLUP);
   pinMode(18, INPUT_PULLUP);
-
   // Initialize USB
   USB.PID(0x8211);
 	USB.VID(0x303b);
-	USB.productName("SC_MFP_V1.0.0");
+	USB.productName("SC_MFP_V1.0.1");
 	USB.manufacturerName("JimbigO Insdustries");
 	USB.begin();
   // Initialize Joystick Library
