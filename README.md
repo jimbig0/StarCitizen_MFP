@@ -1,8 +1,11 @@
 # StarCitizen_MFP v2.0
 ESP32-S3 Based USB game control input for PC 
-![SC-MFP](https://github.com/user-attachments/assets/b7faf35a-3641-45a8-a6c2-a7d133f3d6d0)
+![SC_MFPv2 0](https://github.com/user-attachments/assets/0ed60c22-c07e-468c-807d-f0277ffb26e5)
+
 Designed and developed for use with an ESP32-S3 dvelopment board connected to Windows via USB. Windows will see ESP32 as a Game Controller.
 Digital GPIO pins are connected to ground through momentary push buttons providing button press signals to windows.
+
+v2.0 - Redesign to support the new power management syteme used in v4.0 of Star Citizen using momentary two position on switches.
 
 Hardware
 ESP32 S3 DevKitC 1 N16R8
