@@ -20,12 +20,12 @@ https://amzn.eu/d/8QCAbFV
 
 Guarded Toggle Switch with Mounting Panel 
 https://amzn.eu/d/iHlKJJv
-https://m.media-amazon.com/images/I/61bsHqFejiL._SL1000_.jpg
+[Guarded Switches](https://m.media-amazon.com/images/I/61bsHqFejiL._SL1000_.jpg)
 
 Heavy Duty Rocker Momentary Toggle Switch
 3 Position 3 Pin (ON)-Off-(ON)
 https://amzn.eu/d/988gmMA
-https://m.media-amazon.com/images/I/71AbULv7kbL._AC_SL1500_.jpg
+![Rocker Momentary Switch](https://m.media-amazon.com/images/I/71AbULv7kbL._AC_SL1500_.jpg)
 
 Software deveoped from https://github.com/schnoog/Joystick_ESP32S2
 example files.
