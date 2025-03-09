@@ -6,6 +6,7 @@ Designed and developed for use with an ESP32-S3 dvelopment board connected to Wi
 Digital GPIO pins are connected to ground through momentary push buttons providing button press signals to windows.
 
 v2.0 - Redesign to support the new power management syteme used in v4.0 of Star Citizen using momentary two position on switches.
+![Screenshot 2025-03-09 202142](https://github.com/user-attachments/assets/5151bfa5-5c11-451e-9ddb-45275fdf2200)
 
 Hardware
 ESP32 S3 DevKitC 1 N16R8
@@ -19,6 +20,12 @@ https://amzn.eu/d/8QCAbFV
 
 Guarded Toggle Switch with Mounting Panel 
 https://amzn.eu/d/iHlKJJv
+https://m.media-amazon.com/images/I/61bsHqFejiL._SL1000_.jpg
+
+Heavy Duty Rocker Momentary Toggle Switch
+3 Position 3 Pin (ON)-Off-(ON)
+https://amzn.eu/d/988gmMA
+https://m.media-amazon.com/images/I/71AbULv7kbL._AC_SL1500_.jpg
 
 Software deveoped from https://github.com/schnoog/Joystick_ESP32S2
 example files.
